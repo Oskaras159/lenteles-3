@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 100px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Nunito;
+    margin: auto;
+}
+
+td
+{
+    border: 2px solid black;
+    padding: 3px;
+    width: 50px;
+    height: 5px;
+    text-align: left;
+    font-size: 1.2em;
+}
+th {
+    border: 2px solid black;
+    padding: 5px;
+    width: 50px;
+    height: 5px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+table:nth-of-type(1) td {
+    background: white;
+    width: 180px;
+    height: 10px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+}
+
+table:nth-of-type(1) th {
+    background: white;
+    border: 3px solid black;
+    width: 250px;
+    height: 10px;
+    color: rgb(0, 0, 0);
+}
+
+table:nth-of-type(1) .orange {
+    background: orange;
+    border: 3px solid black;
+    color: white;
+    text-align: left;
+    width: 150px;
+    height: 10px;
+
+}
+
+table:nth-of-type(1) .blue {
+    background: blue;
+    border: 3px solid black;
+    color: white;
+    text-align: left;
+    width: 150px;
+    height: 10px;
+
+}
+
+table:nth-of-type(1) .green {
+    background: green;
+    border: 3px solid black;
+    color: white;
+    text-align: left;
+    width: 150px;
+    height: 10px;
+
+}
